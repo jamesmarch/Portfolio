@@ -11,8 +11,8 @@
         width = window.innerWidth;
         height = window.innerHeight;
         target = {
-            x: width / 2
-            , y: height / 2
+            x: width / 2,
+            y: height / 2
         };
 
         largeHeader = document.getElementById('particle-bg');
@@ -30,10 +30,10 @@
                 var px = x + Math.random() * width / 20;
                 var py = y + Math.random() * height / 20;
                 var p = {
-                    x: px
-                    , originX: px
-                    , y: py
-                    , originY: py
+                    x: px,
+                    originX: px,
+                    y: py,
+                    originY: py
                 };
                 points.push(p);
             }
@@ -71,7 +71,7 @@
 
         // assign a circle to each point
         for (var i in points) {
-            var c = new Circle(points[i], 2 + Math.random() * 2, 'rgba(255,255,255,0.3)');
+            var c = new Circle(points[i], 2 + Math.random() * 2, 'rgba(255,255,255,1)');
             points[i].circle = c;
         }
     }
@@ -99,7 +99,7 @@
     }
 
     function scrollCheck() {
-        if (document.body.scrollTop > height) animateHeader = false;
+        if (document.body.scrollTop > height) animateHeader = true;
         else animateHeader = true;
     }
 
@@ -147,10 +147,10 @@
 
     function shiftPoint(p) {
         TweenLite.to(p, 1 + 1 * Math.random(), {
-            x: p.originX - 50 + Math.random() * 100
-            , y: p.originY - 50 + Math.random() * 100
-            , ease: Circ.easeInOut
-            , onComplete: function () {
+            x: p.originX - 50 + Math.random() * 100,
+            y: p.originY - 50 + Math.random() * 100,
+            ease: Circ.easeInOut,
+            onComplete: function () {
                 shiftPoint(p);
             }
         });

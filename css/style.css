@@ -28,39 +28,80 @@
 */
 
 
-/* Fonts
+/* Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@font-face {
-    font-family: 'Dolly Pro';
-    src: url('../fonts/Dolly/DollyPro-Bold.eot');
-    src: url('../fonts/Dolly/DollyPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Dolly/DollyPro-Bold.woff') format('woff'), url('../fonts/Dolly/DollyPro-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+.sunset {
+    /* Old browsers */
+    background: #ffe3c8;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(-45deg, #ffe3c8 0%, #efad9e 45%, #c79797 65%, #a78a92 85%, #857d8d 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffe3c8), color-stop(45%, #efad9e), color-stop(65%, #c79797), color-stop(85%, #a78a92), color-stop(100%, #857d8d));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(-45deg, #ffe3c8 0%, #efad9e 45%, #c79797 65%, #a78a92 85%, #857d8d 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(-45deg, #ffe3c8 0%, #efad9e 45%, #c79797 65%, #a78a92 85%, #857d8d 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(-45deg, #ffe3c8 0%, #efad9e 45%, #c79797 65%, #a78a92 85%, #857d8d 100%);
+    /* W3C */
+    background: linear-gradient(135deg, #ffe3c8 0%, #efad9e 45%, #c79797 65%, #a78a92 85%, #857d8d 100%);
 }
 
-@font-face {
-    font-family: 'Dolly Pro Regular SC';
-    src: url('../fonts/Dolly/DollyProRegularSC.eot');
-    src: url('../fonts/Dolly/DollyProRegularSC.eot?#iefix') format('embedded-opentype'), url('../fonts/Dolly/DollyProRegularSC.woff') format('woff'), url('../fonts/Dolly/DollyProRegularSC.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.magic-hour {
+    /* Old browsers */
+    background: #325176;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(-45deg, #325176 1%, #7b9ea7 42%, #9baf93 67%, #dbaf81 85%, #fbdf73 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(1%, #325176), color-stop(42%, #7b9ea7), color-stop(67%, #9baf93), color-stop(85%, #dbaf81), color-stop(100%, #fbdf73));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(-45deg, #325176 1%, #7b9ea7 42%, #9baf93 67%, #dbaf81 85%, #fbdf73 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(-45deg, #325176 1%, #7b9ea7 42%, #9baf93 67%, #dbaf81 85%, #fbdf73 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(-45deg, #325176 1%, #7b9ea7 42%, #9baf93 67%, #dbaf81 85%, #fbdf73 100%);
+    /* W3C */
+    background: linear-gradient(135deg, #325176 1%, #7b9ea7 42%, #9baf93 67%, #dbaf81 85%, #fbdf73 100%);
 }
 
-@font-face {
-    font-family: 'Dolly Pro';
-    src: url('../fonts/Dolly/DollyPro-RegularItalic.eot');
-    src: url('../fonts/Dolly/DollyPro-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Dolly/DollyPro-RegularItalic.woff') format('woff'), url('../fonts/Dolly/DollyPro-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+.daylight {
+    /* Old browsers */
+    background: #8dd6c3;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(-45deg, #8dd6c3 6%, #c5e5e2 40%, #eafaeb 70%, #f9f7ca 88%, #fceea1 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(6%, #8dd6c3), color-stop(40%, #c5e5e2), color-stop(70%, #eafaeb), color-stop(88%, #f9f7ca), color-stop(100%, #fceea1));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(-45deg, #8dd6c3 6%, #c5e5e2 40%, #eafaeb 70%, #f9f7ca 88%, #fceea1 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(-45deg, #8dd6c3 6%, #c5e5e2 40%, #eafaeb 70%, #f9f7ca 88%, #fceea1 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(-45deg, #8dd6c3 6%, #c5e5e2 40%, #eafaeb 70%, #f9f7ca 88%, #fceea1 100%);
+    /* W3C */
+    background: linear-gradient(135deg, #8dd6c3 6%, #c5e5e2 40%, #eafaeb 70%, #f9f7ca 88%, #fceea1 100%);
 }
 
-@font-face {
-    font-family: 'Dolly Pro';
-    src: url('../fonts/Dolly/DollyPro-Regular.eot');
-    src: url('../fonts/Dolly/DollyPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Dolly/DollyPro-Regular.woff') format('woff'), url('../fonts/Dolly/DollyPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.dawn {
+    /* Old browsers */
+    background: #95b3bf;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(-45deg, #95b3bf 0%, #c6cdd3 35%, #e5d8d9 64%, #f1e1d9 85%, #f3e1cd 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #95b3bf), color-stop(35%, #c6cdd3), color-stop(64%, #e5d8d9), color-stop(85%, #f1e1d9), color-stop(100%, #f3e1cd));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(-45deg, #95b3bf 0%, #c6cdd3 35%, #e5d8d9 64%, #f1e1d9 85%, #f3e1cd 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(-45deg, #95b3bf 0%, #c6cdd3 35%, #e5d8d9 64%, #f1e1d9 85%, #f3e1cd 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(-45deg, #95b3bf 0%, #c6cdd3 35%, #e5d8d9 64%, #f1e1d9 85%, #f3e1cd 100%);
+    /* W3C */
+    background: linear-gradient(135deg, #95b3bf 0%, #c6cdd3 35%, #e5d8d9 64%, #f1e1d9 85%, #f3e1cd 100%);
+}
+
+img.doodle {
+    padding: 0 1rem;
+
 }
 
 
@@ -228,6 +269,7 @@ html {
     font-size: 62.5%;
     height: 100%;
     width: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 body {
@@ -235,20 +277,18 @@ body {
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
-    animation: pulse 20s infinite alternate;
-    -webkit-animation: pulse 20s infinite alternate;
-    -moz-animation: pulse 20s infinite alternate;
-    font-size: 1.75;
+    font-size: 1.6;
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.8;
     font-weight: 400;
-    color: #fff;
-    height: 100%;
-    font-family: "Gotham Ssm A", "Gotham Ssm B";
+    font-family: "Px Grotesk", "Karla", sans-serif;
+    word-wrap: break-word;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    color: #0f190f;
+    min-height: 100%;
 }
 
 
@@ -331,24 +371,30 @@ h6 {
 }
 
 sup {
-    font-family: 'Dolly Pro';
+    font-family: 'Quarto';
     font-weight: normal;
     font-style: normal;
-    margin: 2px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+a {
+    word-wrap: break-word;
 }
 
 p {
     margin: 0;
-    font-size: 2rem;
-    line-height: 3rem;
-    letter-spacing: -.04rem;
-    font-family: 'Dolly Pro';
-    font-weight: normal;
+    font-size: 2.85rem;
+    line-height: 4.6rem;
+    letter-spacing: -.03rem;
     font-style: normal;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    font-weight: 300;
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 
 p + p {
@@ -357,15 +403,13 @@ p + p {
 
 p + p a {
     text-indent: 0em;
+    font-family: "GTSectraDisplay", serif;
+    font-weight: 300;
+    word-wrap: break-word;
 }
 
 span.italic {
     font-style: italic;
-}
-
-span.year {
-    font-family: 'Roboto Mono';
-    font-size: .75rem;
 }
 
 span.uppercase {
@@ -375,17 +419,18 @@ span.uppercase {
 }
 
 span.action {
-    font-family: "Mercury SSm A", "Mercury SSm B", 'Calluna-Regular';
+    font-family: "GTSectraDisplay", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
 }
 
 span.small-caps {
-    font-family: 'Dolly Pro Regular SC';
+    font-family: "GTSectraDisplay", serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 90%;
+    text-transform: uppercase;
+    font-size: 102%;
     letter-spacing: .05rem;
 }
 
@@ -396,36 +441,86 @@ span.small-caps {
 }
 
 .footer {
-    font-family: "Gotham Ssm A", "Gotham Ssm B";
-    font-size: 1rem;
+    font-family: "Px Grotesk", "Karla", sans-serif;
+    font-size: 1.4rem;
+    line-height: 3.05rem;
     letter-spacing: .15rem;
+    font-weight: 700;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #222;
+    line-height: 2.75rem;
+    font-weight: 700;
+}
+
+span.first-sentence {
+    font-family: "Quarto";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 230%;
+    line-height: 140%;
+    hyphens: none;
+    -webkit-hyphens: none;
+    color: #444;
 }
 
 
 /* Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.particle-bg {
-    position: absolute;
-    width: 100%;
-    background: none;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    z-index: 0;
-}
-
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-a {
-    color: #3E5174;
+p a {
     display: inline-block;
     text-decoration: none;
-    font-family: "Gotham Ssm A", "Gotham Ssm B";
-    font-weight: 400;
-    font-size: 85%;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    color: #0f190f;
+}
+
+p a:active,
+p a:hover {
+    border-bottom: none -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: #4c7d4c;
+}
+
+p a:before {
+    border-bottom: none;
+}
+
+p a:after {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+p a:hover:after {
+    width: 0%;
+}
+
+p a:active,
+p a:active:after {
+    border-color: #4c7d4c;
+    color: #4c7d4c;
+}
+
+ul a {
+    color: #0f190f;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Px Grotesk", "Karla";
+    font-weight: 700;
+    font-size: 95%;
     letter-spacing: -.03rem;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
@@ -433,46 +528,32 @@ a {
     hyphens: auto;
 }
 
-a:active,
-a:hover {
+ul a:active,
+ul a:hover {
     border-bottom: none -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-    color: #444;
+    color: #4c7d4c;
 }
 
-a:before {
+ul a:before {
     border-bottom: none;
 }
 
-a:after {
-    width: 100%;
-    content: "";
-    margin: auto;
-    display: inline-block;
-    float: right;
-    /* Float left to reverse entry
-   * Float left in hover:after 
-   * to exit in same direction
-   * Float right in both places 
-   * to achieve the converse
-   * Comment out the float 
-   * to expand from the middle.
-  */
-    border-top: 1px dashed #ffffff;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+ul a:after {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
 }
 
-a:hover:after {
+ul a:hover:after {
     width: 0%;
 }
 
-a:active,
-a:active:after {
+ul a:active,
+ul a:active:after {
     border-color: #3E5174;
     color: #3E5174;
 }
@@ -483,40 +564,30 @@ a:active:after {
 
 @-webkit-keyframes pulse {
     0% {
-        background-color: #FFE0EA;
-        color: #3E5174;
-    }
-    50% {
-        background-color: #CAE7FC;
-        color: #3E5174;
+        background-color: #F2F2F2;
+        color: #444;
     }
     100% {
-        background-color: #FEA6AB;
-        color: #3E5174;
+        background-color: #D5F2ED;
+        color: #63A69F;
     }
 }
 
-
-}
 @-moz-keyframes pulse {
     0% {
-        background-color: #FFE0EA;
-        color: #3E5174;
+        background-color: #F2F2F2;
+        color: #444;
     }
-    
-    50% {
-        background-color: #CAE7FC;
-        color: #3E5174;
-    }
-    
     100% {
-        background-color: #FEA6AB;
-        color: #3E5174;
+        background-color: #D5F2ED;
+        color: #63A69F;
     }
 }
+
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .button,
 button,
 input[type="submit"],
@@ -540,6 +611,7 @@ input[type="button"] {
     cursor: pointer;
     box-sizing: border-box;
 }
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -554,6 +626,7 @@ input[type="button"]:focus {
     border-color: #888;
     outline: 0;
 }
+
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -563,6 +636,7 @@ input[type="button"].button-primary {
     background-color: #33C3F0;
     border-color: #33C3F0;
 }
+
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -578,8 +652,25 @@ input[type="button"].button-primary:focus {
     border-color: #1EAEDB;
 }
 
+
+/* Preloader
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff;
+}
+
+
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -592,7 +683,6 @@ select {
     height: 38px;
     padding: 6px 10px;
     /* The 6px vertically centers text on FF, ignored by Webkit */
-    
     background-color: #fff;
     border: 1px solid #D1D1D1;
     border-radius: 4px;
@@ -600,7 +690,9 @@ select {
     box-sizing: border-box;
 }
 
+
 /* Removes awkward default styles on some inputs for iOS */
+
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -613,11 +705,13 @@ textarea {
     -moz-appearance: none;
     appearance: none;
 }
+
 textarea {
     min-height: 65px;
     padding-top: 6px;
     padding-bottom: 6px;
 }
+
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -630,40 +724,49 @@ select:focus {
     border: 1px solid #33C3F0;
     outline: 0;
 }
+
 label,
 legend {
     display: block;
     margin-bottom: .5rem;
     font-weight: 600;
 }
+
 fieldset {
     padding: 0;
     border-width: 0;
 }
+
 input[type="checkbox"],
 input[type="radio"] {
     display: inline;
 }
+
 label > .label-body {
     display: inline-block;
     margin-left: .5rem;
     font-weight: normal;
 }
 
+
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 ul {
     list-style: none;
     margin: 0 0 1.1em 1em;
 }
+
 ol {
     list-style: decimal inside;
 }
+
 ol,
 ul {
     padding-left: 0;
     margin-top: 0;
 }
+
 ul ul,
 ul ol,
 ol ol,
@@ -671,15 +774,19 @@ ol ul {
     margin: 0.25rem 0 0.25rem 3rem;
     font-size: 90%;
 }
+
 li {
     margin-bottom: 0.25rem;
     list-style-type: decimal;
-    font-family: 'Dolly Pro';
-    font-size: 115%;
+    font-family: 'Quarto';
+    font-style: italic;
+    font-size: 125%;
 }
+
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 code {
     padding: .2rem .5rem;
     margin: 0 .2rem;
@@ -689,41 +796,50 @@ code {
     border: 1px solid #E1E1E1;
     border-radius: 4px;
 }
+
 pre > code {
     display: block;
     padding: 1rem 1.5rem;
     white-space: pre;
 }
 
+
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 th,
 td {
     padding: 12px 15px;
     text-align: left;
     border-bottom: 1px solid #E1E1E1;
 }
+
 th:first-child,
 td:first-child {
     padding-left: 0;
 }
+
 th:last-child,
 td:last-child {
     padding-right: 0;
 }
 
+
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 button,
 .button {
     margin-bottom: 1rem;
 }
+
 input,
 textarea,
 select,
 fieldset {
     margin-bottom: 1.5rem;
 }
+
 pre,
 blockquote,
 dl,
@@ -735,25 +851,32 @@ form {
     margin-bottom: 2.5rem;
 }
 
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .u-full-width {
     width: 100%;
     box-sizing: border-box;
 }
+
 .u-max-full-width {
     max-width: 100%;
     box-sizing: border-box;
 }
+
 .u-pull-right {
     float: right;
 }
+
 .u-pull-left {
     float: left;
 }
 
+
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 hr {
     margin-top: 3rem;
     margin-bottom: 3.5rem;
@@ -761,10 +884,13 @@ hr {
     border-top: 1px solid #E1E1E1;
 }
 
+
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
 /* Self Clearing Goodness */
+
 .container:after,
 .row:after,
 .u-cf {
@@ -773,8 +899,10 @@ hr {
     clear: both;
 }
 
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 /*
 Note: The best way to structure the use of media queries is to create the queries
@@ -783,14 +911,34 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
 
-/* Larger than phablet (also point when grid becomes active) */
+/* Larger than mobile */
+
+@media (max-width: 400px) {}
+
 @media (min-width: 550px) {}
 
+
 /* Larger than tablet */
-@media (min-width: 750px) {}
+
+@media (max-width: 750px) and (min-width: 280px) {
+    p {
+        font-family: "Px Grotesk", "Karla";
+        font-size: 1.75rem;
+        line-height: 2.65rem;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+img.doodle {
+    height: .75rem;
+    padding: 0 .5rem;
+}
+
+
+}
+
+
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}

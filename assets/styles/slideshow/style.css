@@ -1,0 +1,67 @@
+@import url("animation.css") screen;
+
+/* CONTENT slideshow */
+
+/* slideshow */
+#slideshow {
+	max-width:100%;
+	height:auto;
+	height:650px;
+	width:1000px;
+	overflow:visible;
+	position:relative;
+	background-size:contain;
+	cursor:pointer;
+}
+#mask {
+	overflow:hidden;
+	height:650px;
+}
+#slideshow ul {
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#slideshow li {
+	width:1000px;
+	height:650px;
+	position:absolute;
+	top:-325px;
+	list-style:none;
+}
+
+#slideshow li.firstanimation {
+	-moz-animation:cycle 25s linear infinite;	
+	-webkit-animation:cycle 25s linear infinite;		
+}
+#slideshow li.secondanimation {
+	-moz-animation:cycletwo 25s linear infinite;
+	-webkit-animation:cycletwo 25s linear infinite;		
+}
+#slideshow li.thirdanimation {
+	-moz-animation:cyclethree 25s linear infinite;
+	-webkit-animation:cyclethree 25s linear infinite;		
+}
+#slideshow li.fourthanimation {
+	-moz-animation:cyclefour 25s linear infinite;
+	-webkit-animation:cyclefour 25s linear infinite;		
+}
+#slideshow li.fifthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+
+#slideshow li#first:hover .tooltip, 
+#slideshow li#second:hover .tooltip, 
+#slideshow li#third:hover .tooltip, 
+#slideshow li#fourth:hover .tooltip, 
+#slideshow li#fifth:hover .tooltip {
+	left:0px;
+}
+#slideshow:hover li, 
+#slideshow:hover .progress-bar {
+	-moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+}
+

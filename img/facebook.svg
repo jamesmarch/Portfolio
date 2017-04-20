@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Messenger-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1-Copy" fill="#3E5174">
+            <path d="M12,0 C5.37257143,0 0,4.97459259 0,11.1111111 C0,14.6077778 1.74499379,17.7267407 4.47204969,19.7634815 L4.47204969,24 L8.55793789,21.7575556 C9.64837267,22.0593333 10.8035776,22.2222222 12,22.2222222 C18.6274286,22.2222222 24,17.2476296 24,11.1111111 C24,4.97459259 18.6274286,0 12,0 L12,0 Z M13.1925466,14.962963 L10.136646,11.7037037 L4.17391304,14.962963 L10.7329193,8 L13.863354,11.2592593 L19.7515528,8 L13.1925466,14.962963 L13.1925466,14.962963 Z" id="Messenger"></path>
+        </g>
+    </g>
+</svg>
